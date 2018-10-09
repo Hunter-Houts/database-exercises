@@ -3,16 +3,16 @@ USE Adlister;
 -- ****************** SqlDBM: MySQL ******************;
 -- ***************************************************;
 
-DROP TABLE `Joiner`;
+DROP TABLE IF EXISTS `Joiner`;
 
 
-DROP TABLE `Ads`;
+DROP TABLE IF EXISTS `Ads`;
 
 
-DROP TABLE `Categories`;
+DROP TABLE IF EXISTS `Categories`;
 
 
-DROP TABLE `Users`;
+DROP TABLE IF EXISTS `Users`;
 
 
 
